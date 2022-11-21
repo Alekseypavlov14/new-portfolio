@@ -1,0 +1,29 @@
+.Header {
+  width: 100%;
+}
+
+.Container {
+  padding: 25px 15px;
+}
+
+.BurgerButton,
+.SideBar {
+  visibility: hidden;
+}
+
+.BurgerButton > *,
+.BurgerButton::before,
+.BurgerButton::after {
+  background: var(--primary-orange) !important;
+}
+
+@media (max-width: 480px) {
+  .Navigation {
+    display: none;
+  }
+
+  .BurgerButton,
+  .SideBar {
+    visibility: visible;
+  }
+}

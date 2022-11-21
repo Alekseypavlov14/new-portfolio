@@ -1,0 +1,10 @@
+.NavLink {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  user-select: none;
+}
+
+.Active {
+  color: var(--primary-orange);
+}

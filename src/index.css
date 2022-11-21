@@ -3,6 +3,10 @@
   src: local('Rubik'), url('/fonts/Rubik/Rubik-Regular.ttf') format('truetype');
 }
 
+:root {
+  --primary-orange: rgb(255, 72, 0);
+}
+
 * {
   margin: 0;
   padding: 0;
